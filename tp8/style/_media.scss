@@ -1,0 +1,329 @@
+@media (max-width: 977px) {
+	.widdot {
+    	display: none;
+	}
+
+    .service {
+    	min-width: 40%;    
+	}
+
+	.title-features div img{
+		display: none;
+	}
+
+	.features {
+		.features-left {
+			padding: 5% 0% 0% 0%;
+			width: 30%;
+		}
+
+		.features-right {
+			padding: 5% 0% 0% 0%;
+			width: 30%;
+		}
+	}
+
+	#plans {
+    	background-size: 100%; 
+    	transform: translateY(0%);
+
+    	.plan {
+			min-width: 45%;
+
+			hr {
+				margin-top: 5%;
+			}
+		}
+	}
+
+	.title-pricing {
+		div img {
+			display: none;
+		}
+	}
+
+	#footer {
+		height: 150px;
+
+		.footer-inner {
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+
+			nav {
+				margin: auto;
+
+				ul {
+					padding: 0;
+
+					li img {
+						display: none;
+					}
+				}
+			}
+
+			p {
+				margin: auto;
+				padding-top: 5%;
+			}	
+		}
+	}
+}
+
+@media (max-width: 768px) {
+
+	#top {
+		height: 130px;
+
+		#site-header-inner {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.site-navigation {
+				display: unset;
+				margin: auto;
+
+				ul {
+					padding: 0;
+
+					li {
+						display: inherit;
+						text-align: center;
+						margin: auto;
+					}
+				}
+			}
+		}	
+	}
+
+	.banner {
+		display: none;
+	}
+
+	.search-form {
+		transform: translateY(0);
+		margin-top: 10%;
+	}
+
+    .service {
+    	min-width: 40%;    
+	}
+	
+	.features {
+		.features-left {
+			width: 80%;
+
+			.feature {		
+				flex-direction: row;
+				padding-top: 5%;
+			}
+
+			.feature-txt {
+				text-align: left;
+				padding: 0% 0% 0% 5%;
+			}
+		}
+
+		.features-right {
+			width: 80%;
+
+			.feature-txt {
+				text-align: left;
+				padding: 0% 0% 0% 5%;
+			}
+		}
+	}
+
+
+	#plans {
+		background-size: 100%; 
+		transform: translateY(0%);
+		.plans {
+			
+			.plan {
+				min-width: 60%;
+
+				hr {
+					margin-top: 5%;
+				}
+			}
+		}
+	}
+
+	.title-pricing {
+		padding-top: 5%;
+
+		div img {
+			display: none;
+		}
+	}
+
+	#footer {
+		height: 150px;
+
+		.footer-inner {
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+
+			nav {
+				margin: auto;
+
+				ul {
+					padding: 0;
+
+					ul li img {
+						display: none;
+					}
+				}
+			}
+
+			p {
+				margin: auto;
+				padding-top: 5%;
+			}		
+		}
+	}
+
+	#contact-form {
+		.form-inputs {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+			width: 80%;
+
+			.form-left {
+				width: 100%;
+			}
+
+			.form-right {
+				width: 100%;
+				padding-left: 0;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 580px) {
+
+	#top {
+		height: 130px;
+
+		#site-header-inner {
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: center;
+
+			.site-navigation {
+				display: unset;
+				margin: auto;
+
+				ul {
+					padding: 0;
+
+					li {
+						display: inherit;
+						text-align: center;
+						margin: auto;
+					}
+				}
+			}
+		}	
+	}
+
+	.banner {
+		display: none;
+	}
+
+	.search-form {
+		transform: translateY(0);
+		margin-top: 10%;
+	}
+
+    .service {
+    	min-width: 80%; 
+    	padding-top: 10%;   
+	}
+
+	.features {
+		.features-left {
+			width: 80%;
+
+			.feature {		
+				flex-direction: row;
+				padding-top: 5%;
+			}
+
+			.feature-txt {
+				text-align: left;
+				padding: 0% 0% 0% 5%;
+			}
+		}
+
+		.features-right {
+			width: 80%;
+
+			.feature-txt {
+				text-align: left;
+				padding: 0% 0% 0% 5%;
+			}
+		}
+	}
+
+	.features-left {
+		width: 80%;
+	}
+
+
+	#plans {
+		background-size: 100%; 
+		transform: translateY(0%);
+		
+		.plans{
+
+			.plan {
+				min-width: 80%;
+
+				hr {
+					margin-top: 5%;
+				}
+			}
+		}
+	}
+
+	.title-pricing div img{
+		display: none;
+	}
+
+	#footer {
+		height: 150px;
+
+		.footer-inner {
+			flex-direction: column;
+			justify-content: center;
+			align-content: center;
+
+			nav {
+				margin: auto;
+
+				ul {
+					padding: 0;
+
+					ul li img {
+						display: none;
+					}
+				}
+			}
+
+			p {
+				margin: auto;
+				padding-top: 5%;
+			}		
+		}
+	}
+}
