@@ -1,0 +1,10 @@
+.icon-service:hover{ 
+    -webkit-transform: scale(1.35);
+    transform: scale(1.35)
+}
+.icon-service {
+ -webkit-transition: 1.3s ease-in-out;
+    -moz-transition: 1.3s ease-in-out;
+    -o-transition: 1.3s ease-in-out;
+    transition: 1.3s ease-in-out;
+}
