@@ -1,0 +1,401 @@
+a {
+	color: $brand-primary;
+	&:hover {
+	  outline: none;
+	  text-decoration: none;	  
+	}
+}
+
+a {
+  color: $brand-primary;
+}
+
+a.active,
+a:active,
+a:focus,
+a:hover {
+  color: darken($brand-primary, 10%);
+}
+
+#top-header {
+	background-image: url(../img/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+	color: white;
+
+	nav {
+		padding-top: 2%;
+
+		.navbar-header {
+			a {
+				font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+				font-size: 28px;
+				line-height: 20px;
+
+				&:active,
+				&:focus,
+				&:hover {
+				color: darken($brand-primary, 10%);
+				}
+			}
+		}
+
+		.top-nav {
+			ul {
+				li {
+					font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+					text-transform: uppercase;
+					font-weight: 400;
+					letter-spacing: 1px;
+					
+					
+
+					a {
+						color: white;
+
+						&:focus,
+						&:hover {
+						color: $brand-primary;
+						outline: none;
+						text-decoration: none;
+						background: none;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.banner-text {
+		padding-top: 150px;
+		padding-bottom: 50px;
+
+		.intro-banner {
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 40px;
+			margin-bottom: 25px;
+		}
+
+		.intro2-banner {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			font-size: 75px;
+			font-weight: 700;
+			margin-bottom: 35px;
+		}
+	}
+
+	.btn-xl {
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		text-transform: uppercase;
+		color: white;
+		font-weight: 700;
+		border-radius: 3px;
+		font-size: 18px;
+		padding: 20px 40px;
+		background-color: $brand-primary;
+
+		&:active,
+		&:focus,
+		&:hover {
+		background-color: darken($brand-primary, 10%);
+		}
+	}
+}
+
+
+#services {
+	#title-services {
+		margin: 10% 0 5% 0;
+
+
+		h2 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 40px;
+		}
+
+		h3 {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+
+	.circle-yel {
+		color: $brand-primary;
+	}
+
+	.heading-service {
+		font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: $gray-darkest;
+		font-weight: 700;
+		font-size: 18px;
+		margin-top: 15px;
+	}
+
+	.text-service {
+		font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		color: $gray;
+		font-size: 14px;
+		line-height: 24px;
+		margin: 15px 0 15px 0;
+	}
+}
+
+#portfolio {
+	background-color: #eee;
+	margin-top: 10%;
+	padding-bottom: 10%;
+
+	#title-portfolio {
+		margin: 10% 0 5% 0;
+
+
+		h2 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 40px;
+		}
+
+		h3 {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+
+	.portfolio-item {
+		border: 0px;
+		padding: 0;
+		border-radius: 0;
+
+		h4 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 18px;
+		}
+
+		p {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+}
+
+#about {
+	
+	#title-about {
+		margin: 10% 0 5% 0;
+
+
+		h2 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 40px;
+		}
+
+		h3 {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+}
+
+.timeline {
+	list-style: none;
+	padding: 0;
+	position: relative;
+
+	&:before {
+		top: 0;
+		bottom: 0;
+		position: absolute;
+		content: "";
+		width: 2px;
+		background-color: #f1f1f1;
+		margin-left: 50%;
+	}
+
+	li {
+		margin-bottom: 100px;
+		min-height: 170px;
+
+		&:after
+		&:before {
+			content: "";
+			display: table;
+		}
+
+		&:after {
+			clear: both;
+		}
+
+		.timeline-panel {
+			width: 50%;
+			float: right;
+			position: relative;
+			text-align: right;
+			padding: 0 7% 0 10%;
+			margin-right: 55%;
+		}
+
+		.timeline-image {
+			left: 0;
+			margin-left: 42.5%;
+			width: 170px;
+			height: 170px;
+			position: absolute;
+			z-index: 100;
+			background-color: $brand-primary;
+			color: white;
+			border-radius: 100%;
+			border: 7px solid #f1f1f1;
+
+			h4 {
+				margin-top: 30%;
+				font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				font-weight: 700;
+				font-size: 18px;
+				line-height: 26px;
+				text-transform: uppercase;
+			}
+		}
+
+		&.timeline-inverted > .timeline-panel {
+			float: right;
+			text-align: left;
+			padding: 0 7% 0 12%;
+			margin-right: 0;
+		}
+
+		.timeline-heading {
+			h4 {
+				font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: $gray-darkest;
+				font-weight: 700;
+				font-size: 18px;
+			}
+		}
+
+		.timeline-body {
+			p {
+				font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+				color: $gray;
+				font-size: 14px;
+				line-height: 24px;
+			}
+		}
+	}
+}
+
+
+#team {
+	
+	background-color: #eee;
+	margin-top: 5%;
+	padding-bottom: 10%;
+
+	#title-team {
+		margin: 10% 0 5% 0;
+
+
+		h2 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			text-transform: uppercase;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 40px;
+		}
+
+		h3 {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
+
+	.img-team {
+
+		img {
+			margin: auto;
+			max-width: 100%;
+			height: auto;
+			vertical-align: middle;
+			border: 7px solid #fff	;
+			border-radius: 100%;
+		}		
+	}
+
+	.team-heading {
+
+		margin-top: 20px;
+
+		h4 {
+			font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: $gray-darkest;
+			font-weight: 700;
+			font-size: 18px;
+			line-height: 16px;
+		}
+
+		p {
+			font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			color: $gray;
+			font-size: 14px;
+			line-height: 12px;
+		}
+	}
+
+	.team-social-btns {
+		margin-bottom: 0;
+		margin-top: 20px;
+
+		a {
+			display: block;
+			background-color: $gray-darkest;
+			height: 40px;
+			width: 40px;
+			border-radius: 100%;
+			color: #fff;
+			font-size: 20px;
+			line-height: 40px;
+			outline: none;
+
+			&:active,
+			&:focus,
+			&:hover {
+				background-color: $brand-primary;
+			}
+		}
+	}
+
+	#text-team {
+		margin-top: 40px;
+
+		h3 {
+			color: $gray;
+			font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+			font-style: italic;
+			font-size: 16px;
+			line-height: 30px;
+		}
+	}
+}
